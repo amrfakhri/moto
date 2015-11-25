@@ -1,0 +1,415 @@
+/*--------------------------SIDE BAR--------------------------*/
+
+#LeftPanel {
+/*background:#eee;*/
+padding-top:0px;
+color: #fff;
+padding-left: 0px;
+padding-right: 10px;
+width: 260px;
+}
+#LeftPanel .v4mid, #LeftPanel .lcat {
+background: rgb(30, 30, 30);
+color: #fff;
+padding-left: 13px;
+padding-right: 13px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+}
+#LeftPanel a {
+color: #fff;
+font-weight:normal;
+}
+#LeftPanel .v4mid a:hover, LeftPanel .v4mid a:active {
+color: #ff1500;
+font-weight:normal;
+text-decoration: none;
+}
+#LeftPanel .ttl {
+color: #fff;
+}
+#LeftPanel .v4midBox {
+border: 0px;
+}
+#LeftPanel .v4accent {
+display:none;
+}
+#LeftPanel .v4title {
+background: url() no-repeat scroll 0% 0% rgb(10, 10, 10);
+font-size:16px;
+padding: 12px 18px 8px 0; /* width + padding = 242
+px */
+overflow: hidden;
+background: #1d1c1a url(/img/ebay/ebay-sidebar-tit
+le-bg.png) right top no-repeat;
+padding-left:15px;
+height: 20px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+#LeftPanel .v4baccent, #LeftPanel .v4vspacer {
+display:none;
+}
+#LeftPanel .v4nl td {
+color: #fff;
+}
+#LeftPanel .v4hspacer {
+display:none;
+}
+#LeftPanel .v4title font {
+font-size:small;
+color: #ff1500;
+letter-spacing: 3px;
+}
+#LeftPanel .lcat .lev2 li span {
+    color: #ff1500;
+}
+#LeftPanel .lcat .lev2 li span.cnt {
+    color: rgb(102, 102, 102);
+}
+#LeftPanel .fs2-fs table.fs2-strp {
+    background-color: rgb(50, 50, 50);
+    border: 1px solid rgb(100, 100, 100);
+}
+#LeftPanel .fs2-fs table.fs2-strp td {
+    border-left: 1px solid rgb(100, 100, 100);
+}
+
+
+
+/*-------------------------CONTENT AREA---------------------------*/
+
+span.matchClass {
+    color: rgb(180, 180, 180) !important;
+} 
+span.bin.g-b {
+    color: #ff1500;
+}
+/*View all items div*/
+.v4stabl a:link {
+    color: #ff1500;
+    text-decoration: none;
+}
+.v4stabl a:visited {
+    color: #ff1500;
+    text-decoration: none;
+}
+.v4stabl a:hover {
+    color: rgb(105, 105, 105);
+    text-decoration: none;
+}
+/*shipping to-link*/
+#msg.cmsg.g-nav a {
+    color: #ff1500;
+    text-decoration: none;
+}
+/*shipping price & time left*/
+.clr.time2 span.label, .ship.clearFullDiv.clr span.label {
+    color: rgb(180, 180, 180);
+    padding-right: 8px;
+}
+.clr.time2 span, span.ship.fee {
+    color: #ff1500;
+}
+.cmsg {
+    color: #fff;
+}
+/*view as: sort by: white*/
+span.pdmt .label {
+    color: #fff;
+}
+/*view as: sort by: pink*/
+span.pdmt .cur {
+    color: #ff1500;
+}
+/*view as: arrow change*/
+span.pdmt img {
+    background: url("http://www.cyanureill.net/ebayfiles/arrow.png") no-repeat scroll 0% 0% transparent !important;
+    overflow: hidden;
+    height: 0px;
+    padding-top: 7px;
+    margin-left: 4px;
+    width: 9px;
+}
+td.time.g-nav.center.right a.cmpbTimeArrow.cmpbTimeUp {
+    background: url("http://www.cyanureill.net/ebayfiles/arrow2.png") no-repeat scroll 0% 0% transparent !important;
+    overflow: hidden;
+    height: 0px;
+    padding-top: 7px;
+    margin-left: 4px;
+    width: 9px;
+}
+td.time.g-nav.center.right a.cmpbTimeArrow.cmpbTimeDn {
+    background: url("http://www.cyanureill.net/ebayfiles/arrow.png") no-repeat scroll 0% 0% transparent !important;
+    overflow: hidden;
+    height: 0px;
+    padding-top: 7px;
+    margin-left: 4px;
+    width: 9px;
+}
+.rs_box {
+    border-top: 0px;
+}
+.r3 {
+    background: none repeat scroll 0% 0% rgb(10, 10, 10);
+}
+.cmpBr {
+    background: rgb(10, 10, 10);
+    border-top: 0px;
+    border-bottom: 0px;
+}
+.fpcc span.keywordClass {
+    background-color: rgb(10, 10, 10);
+    color: #ff1500;
+}
+.ctrlbr {
+    border-bottom: 0px;
+    background: rgb(35, 35, 35);
+    border-radius: 8px;
+}
+.rs-pview {
+    background: rgb(30, 30, 30);
+    border-radius: 10px;
+}
+td#CentralArea div.dynpg {
+    border-top: 0px;
+    padding: 20px;
+}
+div.itemseparator {
+    border-color: rgb(50, 50, 50);
+}
+.grid td.left {
+    border-left: 1px solid rgb(50, 50, 50);
+}
+.fpcc .countClass {
+    color: #fff;
+}
+/*Bottom of page - 1of1 and so on*/
+table.pgbc {
+    border-top: 0px;
+    background: rgb(35, 35, 35);
+    border-radius: 8px;
+    padding: 15px;
+    width: 220px;
+    margin-left: auto ;
+    margin-right: auto ;
+}
+#v4acp_mid{
+background:rgb(35,35,35);
+}
+
+table.pgbc a, table.pgbc a.enabled {
+    color:#ff1500;
+}
+.dynpg span.page {
+    color: #fff;
+}
+.dynpg .r{
+    display: none;
+}
+.dynpg .l {
+    text-align: center;
+    padding-left: 0px;
+}
+/*item name in gallery view*/
+.ttl.g-std a:link, .ttl a.v4lnk {
+    color: #fff;
+}
+.ttl.g-std a:hover, .ttl a.v4lnk:hover {
+    color: #ff1500;
+    text-decoration: none;
+}
+.ttl.g-std a:visited, .ttl a.v4lnk:visited {
+    color: rgb(180, 180, 180);
+}
+/*make pic rounded border*/
+table.gallery img {
+    border-radius: 8px;
+}
+/*buy it now pic*/
+td.details img, .li td.bids img {
+    background: url("http://egfinder.com/usedmotopart/logo/buy.png") no-repeat scroll 0% 0% transparent !important;
+    overflow: hidden;
+    height: 10px;
+    padding-top: 15px;
+    width: 54px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+/*paypal pic*/
+img.ii.iippl {
+    background: url("http://www.cyanureill.net/ebayfiles/paypal.png") no-repeat scroll 0% 0% transparent !important;
+    overflow: hidden;
+    height: 0px;
+    padding-top: 15px;
+    margin-left: 5px;
+    width: 15px;
+    margin-bottom: 2px;
+    margin-top:0px;
+}
+/*reduce space between pic & text*/
+.mi {
+    display: none;
+}
+/*list mode - menu frame*/
+td#CentralArea .rs_box div.cmpb {
+    margin-top: 0px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    border-top: 0px;
+}
+td#CentralArea .rs_box div.cmpb a {
+    color: #ff1500;
+}
+/*list mode - pic border*/
+.li td.pic a.pic {
+    border: 0px;
+}
+/*list mode - pic rounded corners*/
+.li td img {
+    border: 0px none;
+    border-radius: 8px;
+}
+/*list mode - time left*/
+.li td.time {
+    text-align: right;
+    color: #ff1500;
+    white-space: nowrap;
+}
+/*list mode - price*/
+.li td.prices {
+    width: 72px;
+    text-align: right;
+    color: #fff;
+}
+/*list mode - separator*/
+.li.nol {
+    border-collapse: collapse;
+    border-color: rgb(50, 50, 50);
+}
+/*-----------------vico----------------*/
+body{
+background: #fff url('http://egfinder.com/usedmotopart/logo/bg9.jp') no-repeat fixed center; }
+#glbfooter{
+display: none;}
+#storercp_mid{
+display: none;}
+
+table.gh-tbl{
+display: none;}
+#gh-gb{
+display: none;}
+.header2{
+border: 2px solid;
+border-radius: 25px;
+background-color:#fff;
+border-color:black;
+ width: 100%;
+    margin: auto;}
+body.plugin.gecko.win.Locale_en_US{
+background-color:black;}
+table.v4midBox.v4wfc{
+background-color:black;}
+table.gallery{
+border-radius: 10px;}
+table.gallery:hover{
+border: 5px solid #FFF;
+box-shadow: 0px 3px 18px rgba(255,0,0,0.9);
+
+}
+.body222{
+ width: 100%;
+    background-color: black;
+    margin: auto;
+border-color:red;
+border-radius: 25px;
+	}
+div.h123{
+   width: 250px;
+    float: left;
+    height: 200px;
+        background-color:black;
+border-radius: 25px;
+}
+div.h124{
+   width: 800px;
+    float: left;
+    height: 200px;
+        background-color:red;
+border-radius: 25px;
+}
+div.h125{
+   width: 250px;
+    float: left;
+    height: 200px;
+        background-color:black;
+border-radius: 25px;
+}
+
+div.imperialmenu
+{
+border-color:red;
+border: 2px solid red;
+border-radius: 25px;
+ box-shadow: 10px 10px 5px #888888;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color:black;
+
+}
+
+div.imperialmenu a
+{
+    display: inline-block;
+    padding: 0 20px;
+    background-color:black;
+    color: red;
+    text-decoration:none;
+    font: 17px Arial;
+    line-height: 42px;
+}
+
+div.imperialmenu a:hover, div.imperialmenu a.current
+{
+    background-color:red;
+    color: Black;
+}
+table.toto {
+
+    background-color:;
+    color: red;
+    text-align: center;
+  font-style: oblique;
+
+}
+table.toto a{
+font-size:20px;
+font-color:red;
+    background-color:;
+    color: red;
+}
+table.toto a:hover{
+ display: inline-block;
+   background-color:red;
+    color: Black;
+
+}
+div.marqe{
+width:100%;
+background-color:black;
+border-color:red;
+}
+#fblike{
+color:red;
+background-color:black;
+border-color:red;
+}
+tr.v4footr{
+background-color:black;
+color:red;
+}
+table.v4acpcont{
+background-color:black;
+border: 2px solid red;
+}
