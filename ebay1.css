@@ -1,3 +1,15 @@
+/* --------Category Section -------- */
+
+table#StoreCategories {
+background-color:#FFFFFF;
+}
+
+table#StoreCategories a {
+color:#FF00FF;
+text-decoration:none;
+}
+
+
 /*--------------------------SIDE BAR--------------------------*/
 
 #LeftPanel {
